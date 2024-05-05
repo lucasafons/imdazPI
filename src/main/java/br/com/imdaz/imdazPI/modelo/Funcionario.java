@@ -16,18 +16,42 @@ public class Funcionario {
     private Long id;
     private String nome;
     private String cargo;
+    private String departamento;
     private String email;
     private int telefone;
     private boolean voluntario;
     private String linkFoto;
 
-//    public Funcionario(Long id, String nome, String cargo, String email, int telefone, boolean voluntario, String linkFoto) {
-//        this.id = id;
-//        this.nome = nome;
-//        this.cargo = cargo;
-//        this.email = email;
-//        this.telefone = telefone;
-//        this.voluntario = voluntario;
-//        this.linkFoto = linkFoto;
+    public Object getNome() {
+        return this.nome;
     }
+
+    public Object getCargo() {
+        return this.cargo;
+    }
+
+    public Object getDepartamento() {
+        return this.departamento;
+    }
+
+    public Object getEmail() {
+        return this.email;
+    }
+
+    public Object getTelefone() {
+        return this.telefone;
+    }
+
+    public Object getVoluntario() {
+        return this.voluntario;
+    }
+
+    public Object getLinkFoto() {
+        return this.linkFoto;
+    }
+
+    public Object getId() {
+        return this.id;
+    }
+}
 

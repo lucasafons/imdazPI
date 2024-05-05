@@ -16,4 +16,20 @@ public class Projeto {
     private String nome;
     private String descricao;
     private String linkVideo;
+
+    public Object getId() {
+        return this.id;
+    }
+
+    public Object getNome() {
+        return this.nome;
+    }
+
+    public Object getDescricao() {
+        return this.descricao;
+    }
+
+    public Object getLinkVideo() {
+        return this.linkVideo;
+    }
 }
